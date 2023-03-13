@@ -1,6 +1,6 @@
 document.querySelector('.busca').addEventListener('submit', async(event)=>{
  
- event.preventDefault() //preventDefault()  previne o compotamento padrão
+ event.preventDefault() 
  let input = document.querySelector('#searchInput').value
 
  if(input !== ''){
